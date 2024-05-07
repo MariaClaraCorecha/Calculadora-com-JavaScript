@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fundo{
+    background-color: rgb(254, 201, 195);
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calculadora{
+    position: absolute;
+    background-color: rgb(112, 178, 223);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 10px 10px 10px rgb(76, 128, 224);
+}
+
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(253, 149, 149);
+    border: none;
+    color: white;
+    border-radius: 15px;
+    margin: 2px;
+    box-shadow: 5px 5px 5px rgb(68, 124, 228);
+}
+
+.botao:hover{
+    background-color: rgb(255, 175, 218);
+}
+
+#botao0{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(253, 149, 149);
+    border: none;
+    color: white;
+    width: 106px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(68, 124, 228);
+    
+}
+
+#botao0:hover{
+    background-color: rgb(255, 175, 218);
+}
+
+#botao1{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(253, 149, 149);
+    border: none;
+    color: white;
+    height: 106px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(68, 124, 228);
+
+   
+}
+
+#botao1:hover{
+    background-color: rgb(255, 175, 218);
+}
+
+#resultado{
+    width: 206px;
+    height: 70px;
+    margin: 5px 5px 15px;
+    background-color: rgb(114, 126, 189);
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    padding: 5px;
+    border-radius: 10px;
+    
+
+
+
+}
+
+h1{
+    text-align: center;
+}
